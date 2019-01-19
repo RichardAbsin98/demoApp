@@ -11,7 +11,7 @@
 		9CF7DFB621F3E5D000388A8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF7DFB521F3E5D000388A8C /* ViewController.swift */; };
 		9CF7DFB921F3E5D000388A8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF7DFB721F3E5D000388A8C /* Main.storyboard */; };
 		9CF7DFBB21F3E5D000388A8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF7DFBA21F3E5D000388A8C /* Assets.xcassets */; };
-		9CF7DFBE21F3E5D000388A8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF7DFBC21F3E5D000388A8C /* LaunchScreen.storyboard */; };
+		9CF7DFC621F3EEC000388A8C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF7DFC521F3EEC000388A8C /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +20,8 @@
 		9CF7DFB521F3E5D000388A8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CF7DFB821F3E5D000388A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CF7DFBA21F3E5D000388A8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9CF7DFBD21F3E5D000388A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CF7DFBF21F3E5D000388A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF7DFC521F3EEC000388A8C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 				9CF7DFB521F3E5D000388A8C /* ViewController.swift */,
 				9CF7DFB721F3E5D000388A8C /* Main.storyboard */,
 				9CF7DFBA21F3E5D000388A8C /* Assets.xcassets */,
-				9CF7DFBC21F3E5D000388A8C /* LaunchScreen.storyboard */,
 				9CF7DFBF21F3E5D000388A8C /* Info.plist */,
+				9CF7DFC521F3EEC000388A8C /* TableViewCell.swift */,
 			);
 			path = demoApp;
 			sourceTree = "<group>";
@@ -122,7 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CF7DFBE21F3E5D000388A8C /* LaunchScreen.storyboard in Resources */,
 				9CF7DFBB21F3E5D000388A8C /* Assets.xcassets in Resources */,
 				9CF7DFB921F3E5D000388A8C /* Main.storyboard in Resources */,
 			);
@@ -135,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF7DFC621F3EEC000388A8C /* TableViewCell.swift in Sources */,
 				9CF7DFB621F3E5D000388A8C /* ViewController.swift in Sources */,
 				9CF7DFB421F3E5D000388A8C /* AppDelegate.swift in Sources */,
 			);
@@ -149,14 +149,6 @@
 				9CF7DFB821F3E5D000388A8C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9CF7DFBC21F3E5D000388A8C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9CF7DFBD21F3E5D000388A8C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
